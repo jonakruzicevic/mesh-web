@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/about-us.css">
+    <title>About-us</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div>
+                <img id="logo" src="./images/logo.png" alt="logo">
+                  <span id="logoText" class="color-text">MESH</span>
+            </div>
+            <div class="nav">
+                <ul class="navbar-links">
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#name" id="contactUs">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <h1 id="containerTextHeading" class="color-text-tale">A tale of two cities</h1>
+        
+        <div class="container-full-tale">
+          <div class="column-left-tale">
+            <img src="./images/zagreb-raster.svg" id="zagreb" alt="zagreb"/>
+            <img src="./images/avatar.svg" id="avatar" alt="avatar"/>
+          </div>
+          <div class="column-center">
+            <img src="./images/swirl.svg" alt="swirl" id="swirl"/>
+          </div>
+          <div class="column-right-tale">
+            <img src="./images/brooklyn-raster.svg" id="brooklyn" alt="brooklyn"/>
+            <img src="./images/bk-avatar.svg" id="avatar2" alt="avatar"/>
+          </div>
+       </div>
+
+     <div class="text-container">
+        <p class="text-paragraf">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum ipsum vel enim bibendum
+            bibendum. Aliquam non mauris <a href="#" class="paragraf-link">dignissim,</a> finibus libero vel, vulputate
+            metus. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. In erat quam, varius sed ligula ut, pharetra hendrerit enim. Aliquam semper
+            vel libero vel imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </p>
+        <p class="text-paragraf">
+            Suspendisse blandit purus id cursus tempor. <a href="#" class="paragraf-link">Aenean sed consequat</a>
+            nisi. In hac habitasse platea dictumst. Mauris ut leo vel orci fermentum tincidunt. Aenean laoreet
+            feugiat lacus, eget vehicula ex.
+            Curabitur non est ultrices lacus ullamcorper consequat id nec elit. Curabitur efficitur mi orci, vitae
+            pretium eros iaculis non.
+        </p>
+     </div>
+
+    <div class="container-full-unsplash">
+      <figure class="figa1">
+        <img src="./images/marvin.svg" alt="unsplash"/>
+        <figcaption>Image: Scott Graham / Unsplash</figcaption>
+      </figure>
+      <figure class="figa2">
+         <img src="./images/marvin.svg" alt="unsplash"/>
+         <figcaption>Image: Scott Graham / Unsplash</figcaption>
+      </figure>
+    </div>
+    </div>
+    
+  
+
+  <footer class="container-full footer">
+     <div class="column-left">
+        <h1 id="formText" class="color-text display-3">Let’s get down to business!</h1>
+
+            <form action="/home.html" method="POST" class="inputs">
+                <div>
+                    <label class="question" style="display: block;" for="name">Your name*</label>
+                    <input type="name" name="name" id="name" required>
+                </div>
+                <div>
+                    <label class="question" style="display: block " for="email">Your email*</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            
+         <div>
+               <p class="question" style="padding-top: 35px;">What are you looking for? *</p>
+             <div class="checkbox-grid">
+                <div>
+                    <input type="checkbox" id="full-time" name="work-tipe" value="fulltime">
+                    <label  for="full-time">
+                        Full-time staff augmentation
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="part-time" name="work-tipe" value="parttime">
+                    <label for="part-time">
+                        Part-time staff augmentation
+                    </label>
+                </div>
+                <div>
+                   <input type="checkbox" id="consulting" name="work-tipe" valeu="Consulting">
+                    <label for="consulting">
+                        Consulting
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="other" name="work-tipe" value="Other">
+                    <label for="other">
+                        Other
+                    </label>
+                </div>
+             </div>
+          </div>
+        
+           <div>
+             <label class="question" for="blog">Tell us a little bit about your
+                needs!</label>
+             <textarea style="display: block;" id="blog" name="blog" rows="5" cols="10"></textarea>
+             <input type="submit" value="Submit" id="submitForm">
+          </div>
+      </div>
+
+      <div class="column-right">
+        <img src="./images/chair.svg" width="500" id="chair" alt="picture-chair"/>
+      </div>
+
+   </footer>
+
+  </body>
+</html>
+
