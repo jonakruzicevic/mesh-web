@@ -6,8 +6,8 @@ body {
 }
 .main-container {
   width: 100%;
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .navbar {
   display: flex;
@@ -84,26 +84,26 @@ body {
 }
 
 #zagreb {
-  margin-left: 0.3rem;
+  margin-left: -7.5rem;
   z-index: -1;
 }
 
 .column-center {
   z-index: 0;
   margin-top: 12.5rem;
-  margin-left: -3.4rem;
+  margin-left: -3.2rem;
   flex: 33.33%;
 }
 
 #avatar {
   z-index: 1;
-  margin-left: -350px;
+  margin-left: -310px;
   margin-top: 140px;
   position: absolute;
 }
 
 #brooklyn {
-  margin-left: 40px;
+  margin-left: 210px;
   margin-top: 50px;
   z-index: -1;
 }
@@ -111,7 +111,7 @@ body {
 #avatar2 {
   z-index: 1;
   position: absolute;
-  margin-left: -695px;
+  margin-left: -725px;
   margin-top: 140px;
 }
 
@@ -301,12 +301,27 @@ textarea {
     justify-content: space-between;
   }
 
-  .column-left-tale {
-    margin-left: -140px;
+  .container-full-tale {
+    display: flex;
+    flex-direction: row;
   }
 
-  .column-center {
-    margin-right: 120px;
+  .column-left-tale {
+    flex: 33.33%;
+    margin-left: -80px;
+  }
+
+  .column-right-tale {
+    flex: 33.33%;
+  }
+
+  .container-full-unsplash {
+    margin-left: 30px;
+  }
+
+  .text-container p {
+    width: 1150px;
+    margin-left: 10px;
   }
 }
 
@@ -377,7 +392,7 @@ textarea {
   }
   .column-left-tale #zagreb {
     width: 850px;
-    margin-left: 120px;
+    margin-left: 70px;
   }
 
   .column-center {
@@ -386,6 +401,11 @@ textarea {
 
   .column-right-tale #brooklyn {
     display: none;
+  }
+
+  .text-container p {
+    width: 770px;
+    margin-left: 20px;
   }
 }
 
@@ -455,7 +475,7 @@ textarea {
   }
   .column-left-tale #zagreb {
     width: 450px;
-    margin-left: 120px;
+    margin-left: 70px;
   }
 
   .column-center {
@@ -469,7 +489,7 @@ textarea {
   .container-full-unsplash img {
     width: 350px;
     height: 160px;
-    margin-left: 20px;
+    margin: 0 auto;
   }
 
   figcaption {
@@ -484,7 +504,7 @@ textarea {
   }
 
   .column-left {
-    padding-left: 0.7rem;
+    padding-left: 1.09rem;
   }
 
   .footer h1 {
@@ -564,7 +584,7 @@ textarea {
   }
 
   .container-full .column-left {
-    margin: 0px auto;
+    margin: 15px auto;
     padding-left: 30px;
   }
 
@@ -613,7 +633,7 @@ textarea {
   }
   .column-left-tale #zagreb {
     width: 670px;
-    margin-left: 140px;
+    margin-left: 85px;
   }
 
   .column-center {
@@ -625,5 +645,10 @@ textarea {
   }
   .container-full-unsplash {
     margin-left: 27px;
+  }
+
+  .text-container p {
+    width: 630px;
+    margin-left: 25px;
   }
 }

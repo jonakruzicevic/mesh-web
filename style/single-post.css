@@ -6,8 +6,8 @@ body {
 }
 .main-container {
   width: 100%;
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .navbar {
   display: flex;
@@ -74,14 +74,15 @@ body {
   font-weight: bold;
   grid-row: 1 / span 1;
   grid-column: 2 / span 2;
-  margin-left: calc(100% - 65%);
+  margin-left: 10px;
 }
 
 .container-full-category img {
-  grid-column: 3 / span 6;
+  grid-column: 2 / span 5;
   grid-row: 2 / span 2;
   width: 59rem;
   height: 14rem;
+  margin-left: 70px;
 }
 
 .text-container {
@@ -92,6 +93,7 @@ body {
 .text-paragraf {
   font-size: 1.1rem;
   line-height: 1.8rem;
+  width: 1100px;
 }
 
 .paragraf-link {
@@ -114,7 +116,8 @@ body {
 
 #blogText {
   font-weight: 900;
-  font-size: 4.1rem;
+  font-size: 4.3rem;
+  width: 1500px;
 }
 
 .code {
@@ -127,7 +130,7 @@ body {
   border-radius: 0.75rem;
   width: 48rem;
   height: 14.5rem;
-  margin: 2.5rem 2rem;
+  margin: 2.5rem 9rem;
 }
 
 .code pre {
@@ -146,7 +149,7 @@ body {
   margin-top: 2rem;
   flex-flow: row;
   justify-content: space-evenly;
-  margin: 5px 229px;
+  margin: 5px 150px;
 }
 
 .container-full-unsplash .text-paragraf-1 {
@@ -169,14 +172,14 @@ body {
   font-size: 18px;
   line-height: 160%;
   width: 1100px;
-  margin-left: calc(98% - 80%);
+  margin-left: 190px;
   margin-top: calc(97% - 100%);
 }
 
 .heading-container {
   font-size: 2rem;
   line-height: 2.3rem;
-  margin-left: calc(100% - 81.8%);
+  margin-left: 190px;
   margin-top: 5.2rem;
   margin-bottom: 1.5rem;
 }
@@ -326,7 +329,7 @@ label {
 #chair {
   width: calc(100% - 80px);
   height: 28.2rem;
-  margin: 12.5rem calc(100% - 85%);
+  margin: 12.5rem calc(100% - 97%);
 }
 
 #picture-chair {
@@ -376,7 +379,7 @@ textarea {
   }
 
   .heading-container {
-    margin-left: 100px;
+    margin-left: 110px;
   }
 }
 
@@ -419,8 +422,13 @@ textarea {
     margin: 15px 75px;
   }
 
+  .text-paragraf {
+    max-width: 790px;
+  }
+
   .text-paragraf-1 {
     margin-left: -55px;
+    max-width: 800px;
   }
 
   .text-paragraf-2 {
@@ -435,7 +443,7 @@ textarea {
   }
 
   .heading-container {
-    margin-left: 20px;
+    margin-left: 5px;
     font-size: 24px;
   }
 
@@ -607,7 +615,7 @@ textarea {
 
   .code2 {
     margin-top: -35px;
-    margin-left: -50px;
+    margin-left: -82px;
   }
 
   .container-full-category {
@@ -670,11 +678,11 @@ textarea {
 
   .column img {
     width: 85%;
-    margin-left: 40px;
+    margin-left: 35px;
   }
   .column p {
     font-size: 1rem;
-    max-width: 300px;
+    max-width: 260px;
     padding-top: 10px;
   }
 }
@@ -697,6 +705,14 @@ textarea {
     width: 90%;
   }
 
+  .code pre {
+    margin: 10px -45px;
+  }
+
+  .code2 {
+    margin-top: -35px;
+  }
+
   .footer {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
@@ -708,6 +724,9 @@ textarea {
     padding-left: 30px;
   }
 
+  .text-paragraf {
+    width: 600px;
+  }
   #formText {
     margin-top: 50px;
   }
@@ -765,6 +784,6 @@ textarea {
   }
 
   .container-full-category #vector {
-    margin-left: 12px;
+    margin-left: 20px;
   }
 }
